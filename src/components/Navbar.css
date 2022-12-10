@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+:root{
+    --primary-color:#2563eb;
+    --secondary-color:#eff6ff;
+    --gold:#fdc434;
+    --white:#fff;
+    --black: rgba(0,0,0,.8);
+}
+.hero-header-container{
+    background-color: var(--secondary-color);
+}
+.hero-header{
+    color: var(--primary-color);
+  padding: 5px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+
+}
+.brand-name{
+ border: 2px solid var(--gold);
+ border-radius: 10px ;
+ font-size: 1.5rem;
+ font-weight: 100;
+ text-decoration: none;
+
+}
+.nav-title{
+text-decoration: none;
+}
